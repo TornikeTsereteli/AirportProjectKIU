@@ -19,4 +19,9 @@ Route::get('/send-test-email', function () {
 });
 
 
+Route::get("/test", function () {
+    return 0;
+});
+
+
 require __DIR__.'/auth.php';
